@@ -13,6 +13,20 @@ p {
 .row { 
 	display: flex; 
 } 
+.footer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0,5vmin;
+    flex-direction: column;
+    text-align: center;
+}
+.footer h3{
+	color: orangered;
+	
+}
 .cell { 
 	border: none; 
 	width: 80px; 
