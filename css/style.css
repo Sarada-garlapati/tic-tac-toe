@@ -1,6 +1,9 @@
 h1 { 
 	color: orangered; 
 	margin-bottom: -5px; 
+}
+body{
+	background-color:#ffe5ec;
 } 
 p { 
 	margin-bottom: -10px; 
@@ -43,65 +46,98 @@ p {
 } 
 /* 3*3 Grid */
 #b1{ 
-	border-bottom: 1px solid gray; 
-	border-right: 1px solid gray; 
-} 
+	border-top: 1px solid #fe5d9f;             
+	border-left: 1px solid #fe5d9f; ; 
+	background-color: azure;
+	border-right: 1px solid #fe5d9f; ; 
+	border-bottom: 1px solid #fe5d9f; ;
+	box-shadow: 0 0  20px   #fe5d9f;
+}	
 
 #b2 { 
-	border-bottom: 1px solid gray; 
-	border-right: 1px solid gray; 
-	border-left: 1px solid gray; 
+	border-top: 1px solid #fe5d9f;             
+	border-left: 1px solid #fe5d9f; ; 
+	background-color: azure;
+	border-right: 1px solid #fe5d9f; ; 
+	border-bottom: 1px solid #fe5d9f; ;
+	box-shadow: 0 0  20px   #fe5d9f;
 } 
 
 #b3 { 
-	border-bottom: 1px solid gray; 
-	border-left: 1px solid gray; 
+	border-top: 1px solid #fe5d9f;             
+	border-left: 1px solid #fe5d9f; ; 
+	background-color: azure;
+	border-right: 1px solid #fe5d9f; ; 
+	border-bottom: 1px solid #fe5d9f; ;
+	box-shadow: 0 0  20px   #fe5d9f;
 } 
 
 #b4 { 
-	border-top: 1px solid gray; 
-	border-bottom: 1px solid gray; 
-	border-right: 1px solid gray; 
+	border-top: 1px solid #fe5d9f;             
+	border-left: 1px solid #fe5d9f; ; 
+	background-color: azure;
+	border-right: 1px solid #fe5d9f; ; 
+	border-bottom: 1px solid #fe5d9f; ;
+	box-shadow: 0 0  20px   #fe5d9f;
 } 
 	
 #b5 { 
-	border: 1px solid gray; 
+	border: 1px solid #fe5d9f; 
+	box-shadow: 0 0  20px   #fe5d9f; 
+	background-color: azure;
+	 
 } 
 
 #b6 { 
-	border-top: 1px solid gray; 
-	border-bottom: 1px solid gray; 
-	border-left: 1px solid gray; 
+	border-top: 1px solid #fe5d9f;             
+	border-left: 1px solid #fe5d9f; ; 
+	background-color: azure;
+	border-right: 1px solid #fe5d9f; ; 
+	border-bottom: 1px solid #fe5d9f; ;
+	box-shadow: 0 0  20px   #fe5d9f; 
+	
 } 
 
 #b7 { 
-	border-top: 1px solid gray; 
-	border-right: 1px solid gray; 
+	border-top: 1px solid #fe5d9f;             
+	border-left: 1px solid #fe5d9f; ; 
+	background-color: azure;
+	border-right: 1px solid #fe5d9f; ; 
+	border-bottom: 1px solid #fe5d9f; ;
+	box-shadow: 0 0  20px   #fe5d9f; 
 } 
 
 #b8 { 
-	border-top: 1px solid gray; 
-	border-right: 1px solid gray; 
-	border-left: 1px solid gray; 
+	border-top: 1px solid #fe5d9f;             
+	border-left: 1px solid #fe5d9f; ; 
+	background-color: azure;
+	border-right: 1px solid #fe5d9f; ; 
+	border-bottom: 1px solid #fe5d9f; ;
+	box-shadow: 0 0  20px   #fe5d9f; 
+
 } 
 
 #b9 { 
-	border-top: 1px solid gray; 
-	border-left: 1px solid gray; 
+	border-top: 1px solid #fe5d9f;             
+	border-left: 1px solid #fe5d9f; ; 
+	background-color: azure;
+	border-right: 1px solid #fe5d9f; ; 
+	border-bottom: 1px solid #fe5d9f; ;
+	box-shadow: 0 0  20px   #fe5d9f; 
 } 
 /* Reset Button */
 #but { 
 	box-sizing: border-box; 
 	width: 95px; 
 	height: 40px; 
-	border: 1px solid dodgerblue; 
+	border: 1px solid #9b5de5; ; 
 	margin-left: auto; 
 	border-radius: 8px; 
-	font-family: Verdana, 
-		Geneva, Tahoma, sans-serif; 
-
+	font-family: Verdana,Tahoma, sans-serif; 
 	background-color: whitesmoke; 
-	color: dodgerblue; 
+	font-size: 20px; 
+	font-size: 20px; 
+	color:#9b5de5;  ; 
 	font-size: 20px; 
 	cursor: pointer; 
 } 
@@ -110,18 +146,25 @@ p {
 #print { 
 	font-family: Verdana, 
 		Geneva, Tahoma, sans-serif; 
-	color: dodgerblue; 
+	color: #9b5de5; 
 	font-size: 20px; 
 } 
 
 /* Main Container */
 #main { 
-	text-align: center; 
-} 
+	text-align: center;
+		font-family: "Libre Baskerville", serif;
+		font-weight: 400;
+		font-style: normal;
+	  
+}
 
 /* Game Instruction Text */
 #ins { 
 	font-family: Verdana,Geneva, 
 					Tahoma, sans-serif; 
-	color: dodgerblue; 
-}
+	color: #9b5de5; 
+		font-family: "Libre Baskerville", serif;
+		font-weight: 400;
+		font-style:normal;
+} 
